@@ -6,3 +6,9 @@
 
 一、SVF的数据模型结构。
 ![image](https://github.com/einstein20050430/forge-convert-utils-java/blob/main/SVF.png)
+
+1、FragmentList  
+场景构件列表，用于存储场景中所有的构件；  
+
+2、GeometryMetadata  
+几何对象列表，用于存储场景中所有的几何对象，构件和几何对象的关系是多对一的关系，也就是说几何对象是被构件复用的。
